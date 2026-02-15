@@ -1,6 +1,6 @@
 # Contributing
 
-This repository is for **bug reports, feature requests, and support** only. Jollycat is a closed-source application — no source code is hosted here.
+This repository is for **bug reports, feature requests, and support** only.
 
 ## How to Contribute
 
