@@ -1,0 +1,67 @@
+name: Conversion Issue
+description: Report a file conversion that fails or produces unexpected results
+labels: ["conversion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Having trouble with a specific conversion? Please provide details below so we can investigate.
+  - type: input
+    id: version
+    attributes:
+      label: Jollycat Version
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: source-format
+    attributes:
+      label: Source format
+      description: The format of the file you're trying to convert.
+      placeholder: "e.g. PNG, MP4, PDF, DOCX"
+    validations:
+      required: true
+  - type: input
+    id: target-format
+    attributes:
+      label: Target format
+      description: The format you're trying to convert to.
+      placeholder: "e.g. WebP, MP3, EPUB"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue. Did the conversion fail with an error? Did it produce a corrupted or unexpected output?
+      placeholder: Describe the issue...
+    validations:
+      required: true
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error message
+      description: If Jollycat showed an error message, paste it here.
+    validations:
+      required: false
+  - type: input
+    id: file-size
+    attributes:
+      label: Approximate file size
+      placeholder: "e.g. 15 MB"
+    validations:
+      required: false
+  - type: textarea
+    id: settings
+    attributes:
+      label: Conversion settings used
+      description: Did you use any specific settings (quality, resolution, preset, etc.)?
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other info, screenshots, or details that might help.
+    validations:
+      required: false

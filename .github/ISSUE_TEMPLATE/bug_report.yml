@@ -1,0 +1,74 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in Jollycat
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the information below to help us investigate.
+  - type: input
+    id: version
+    attributes:
+      label: Jollycat Version
+      description: You can find this in Jollycat's settings or About screen.
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS Version
+      description: "Go to Apple menu > About This Mac to find your macOS version."
+      placeholder: "e.g. macOS 15.3 Sequoia"
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: Mac Type
+      options:
+        - Apple Silicon (M1/M2/M3/M4)
+        - Intel
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: Describe the issue...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      placeholder: Describe the expected behavior...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce the issue?
+      placeholder: |
+        1. Open Jollycat
+        2. Drop a file...
+        3. Select...
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or screen recordings
+      description: If applicable, add screenshots or recordings to help explain the problem.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any other information that might help (error messages, console logs, etc.)
+    validations:
+      required: false

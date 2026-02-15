@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Questions
+    url: mailto:support@jollycat.app
+    about: For general questions or account/license issues, email us directly.
+  - name: Website
+    url: https://jollycat.app
+    about: Visit our website for more information about Jollycat.
