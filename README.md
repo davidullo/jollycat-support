@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="og-image.webp" alt="Jollycat" />
+</p>
+
 # Jollycat Support
 
 Welcome to the official support repository for [Jollycat](https://jollycat.app) — the fast, private file converter and editor for macOS.
