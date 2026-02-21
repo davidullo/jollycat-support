@@ -45,7 +45,7 @@ Use one of the issue templates:
 A: Jollycat requires macOS 10.15 (Catalina) or later. It runs natively on both Apple Silicon and Intel Macs.
 
 **Q: Is Jollycat a subscription?**
-A: No. Jollycat is a one-time purchase of $14.99 with up to 5 Mac activations.
+A: No. Jollycat is a one-time purchase of $9.99 with up to 5 Mac activations.
 
 **Q: Does Jollycat upload my files anywhere?**
 A: No. All file processing happens entirely on your Mac. The only network requests are for license validation and optional update checks. There is an optional file sharing feature (via GoFile.io) that only activates when you explicitly choose it.
